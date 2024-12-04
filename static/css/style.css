@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "DM Sans";
+    src: url("../fonts/DMSans-VariableFont_opsz\,wght.ttf");
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    min-height: 100vh;
+    background-image: url("../images/topazbg.png");
+    background-size: cover;
+    background-position: 40%;
+    color: white;
+}
+
+.site-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-top: 250px;
+    padding: 10px;
+    gap: 20px;
+}
+
+.topaz {
+    height: 200px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.1;
+}
+
+.credit {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    text-shadow: black 1px 0 10px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    min-height: 100vh;
+}
+ /* remove later 
+ 
+start */
+
+.mommy {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.placeholder {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+}
+
+/* end */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "DM Sans", serif;
+}
