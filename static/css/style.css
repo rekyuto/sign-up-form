@@ -10,9 +10,9 @@
     width: 40%;
     height: 100vh;
     background-image: url("../images/topazbg.jpg");
+    background-color: #080a17;
     background-size: cover;
     background-position: 40%;
-    color: white;
 }
 
 .site-name {
@@ -59,21 +59,66 @@
 }
 
 .header-text {
-    color: white;
     font-size: 28px;
     font-weight: bold;
     width: 85%;
-    padding-left: 60px;
+    padding-left: 50px;
 }
 
 .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: #0e1027;
-    height: 40vh;
+    height: 35vh;
+}
+
+.form-div-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-div-content, .footer-div-content {
+    padding: 30px 50px;
+}
+
+.form-header {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.form-inputs {
+    display: flex;
+    gap: 100px;
+}
+
+.form-left-column, .form-right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .footer {
     background-color: #080a17;
-    height: 30vh;
+    height: 35vh;
+}
+
+.submit-button {
+    font-family: "DM Sans", serif;
+    font-size: 20px;
+    color: white;
+    background-color: #d62253;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+    transition-duration: 0.1s;
+}
+
+.submit-button:hover {
+    border-color: #d62253;
+    background-color: #96183a;
 }
 
 body {
@@ -81,4 +126,23 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: "DM Sans", serif;
+    color: white;
+}
+
+form input {
+    width: 300px;
+    height: 30px;
+    font-family: "DM Sans", serif;
+}
+
+form input, form label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a {
+    font-weight: bold;
+    color: #d62253;
+    text-decoration: none;
 }
