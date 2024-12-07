@@ -149,7 +149,7 @@ form input:invalid {
     border-color: red;
 }
 
-form input:valid {
+form input:valid, form input:placeholder-shown {
     border-color: #878893;
 }
 
