@@ -145,6 +145,14 @@ form input, form label {
     gap: 10px;
 }
 
+form input:invalid {
+    border-color: red;
+}
+
+form input:valid {
+    border-color: #878893;
+}
+
 a {
     font-weight: bold;
     color: #d62253;
