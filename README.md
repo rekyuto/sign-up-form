@@ -4,5 +4,11 @@
 
 A site project of a sign-up form, focusing on more intermediate CSS, using a given template.
 
-Theme is based on my website/mini-project [topaz.rekuto.moe](https://topaz.rekuto.moe) 
+Theme is based on my website/mini-project [topaz.rekuto.moe](https://topaz.rekuto.moe)
 ([Repo](https://github.com/rekyuto/Topaz))
+
+## Credits
+
+### Images
+
+- Topaz Art and Sticker by HoYoverse
